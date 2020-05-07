@@ -39,9 +39,12 @@
         "extensions": ["jsx", "tsx"]
       }
     ],
+    // prop-typesなくてもOK
     "react/prop-types": "off",
+    // 分割代入じゃなくてもOK propsとか
     "react/destructuring-assignment": [0, "always"],
     // import
+    // import拡張子
     "import/extensions": [
       "error",
       "always",
@@ -52,6 +55,7 @@
         "tsx": "never"
       }
     ],
+    // single module exportをdefaultをしなくてもOK
     "import/prefer-default-export": "off"
   }
 }
