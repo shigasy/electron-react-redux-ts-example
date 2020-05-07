@@ -38,6 +38,8 @@
       {
         "extensions": ["jsx", "tsx"]
       }
-    ]
+    ],
+    "react/prop-types": "off",
+    "react/destructuring-assignment": [false, "always"]
   }
 }
