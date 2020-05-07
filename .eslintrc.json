@@ -40,6 +40,18 @@
       }
     ],
     "react/prop-types": "off",
-    "react/destructuring-assignment": [false, "always"]
+    "react/destructuring-assignment": [0, "always"],
+    // import
+    "import/extensions": [
+      "error",
+      "always",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "import/prefer-default-export": "off"
   }
 }
